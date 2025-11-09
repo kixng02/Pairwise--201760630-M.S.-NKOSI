@@ -9,7 +9,7 @@ import io
 # Set page configuration
 st.set_page_config(
     page_title="Pairwise Agreement Analysis - AI Bias Study",
-    page_icon="",
+    page_icon="🇿🇦",
     layout="wide"
 )
 
