@@ -370,7 +370,7 @@ def user_data_input_pairwise():
             st.warning(f"⚠️ You have {len(st.session_state.user_plants_pairwise)} plants. Need at least 3 for pairwise analysis.")
             return False
     else:
-        st.info("👆 Start by adding your first plant using the form above.")
+        st.info(" Start by adding your first plant using the form above.")
         return False
 
 def prepare_user_data_pairwise():
@@ -431,7 +431,7 @@ def run_study_data_analysis(analyzer):
         
         if agreement_matrix is not None:
             # Display results
-            st.header("📈 Pairwise Agreement Results")
+            st.header(" Pairwise Agreement Results")
             
             # Overall agreement
             col1, col2, col3 = st.columns(3)
